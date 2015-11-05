@@ -6,7 +6,7 @@ public class WorldDomination {
 	public static void main(String[] args) {
 		String answer;
 		
-		for (int i = 0; i < 3; i++) {
+		for (int i = 0; i < 4; i++) {
 		
 			answer = JOptionPane.showInputDialog("Do you know how to write code?");
 
@@ -17,6 +17,10 @@ public class WorldDomination {
 			else if(answer.equalsIgnoreCase("No"))
 			{
 				JOptionPane.showMessageDialog(null, "Welp, you kind of suck. Doesn't really change anything though. I mean, a lot of people don't know how to code. Your just another normal person. Don't feel bad though..");
+			}
+			else if(answer.equalsIgnoreCase("maybe"))
+			{
+				JOptionPane.showMessageDialog(null, ("*facepalm*"));
 			}
 			else
 			{
